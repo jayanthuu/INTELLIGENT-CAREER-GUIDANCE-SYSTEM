@@ -105,26 +105,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         margin:auto; 
         margin-top: 120px;
         width:500px; 
-        background-color: blueviolet;
+        background-color:rgb(237, 97, 167);
         color: black;
         
         
         }
         .wrapper{  border-style: solid;
-        border-color: blue;
+        border-color: pink;
         border-radius: 30px;
         padding: 20px;  background-color: white;}
     </style>
 </head>
 <body>
     <!--Header-->
-    <header id="header" class="transparent-nav" style="position: fixed;background-color: rgb(120, 70, 167); top: 0;">
+    <header id="header" class="transparent-nav" style="position: fixed;background-color: #D63384; top: 0;">
 			<div class="container">
 
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="main.php" style="padding-bottom: 10px;">Career.ly</a>
+						<a class="logo" href="main.php" style="padding-bottom: 10px;">Future Path</a>
 					</div>
 					<!-- /Logo -->
 
@@ -156,7 +156,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="submit" class="btn btn-primary" value="Submit">
                 <input type="reset" class="btn btn-secondary ml-2" value="Reset">
             </div>
-            <p style="font-size: 16px;">Already have an account? <a href="login.php" style="color: blue;">Login here</a>.</p>
+            <p style="font-size: 16px;">Already have an account? <a href="login.php" style="color: pink;">Login here</a>.</p>
         </form>
     </div>    
 </body>

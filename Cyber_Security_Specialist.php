@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,11 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Cyber Security Specialist is responsible for providing security during the development stages of software systems, networks and data centers. The professionals have to search for vulnerabilities and risks in hardware and software. They manage and monitor any attacks and intrusions. The Security Specialist has to recognize the potential threat or attempted breach by closing off the security vulnerability. They build firewalls into network infrastructures.</p>
-
-							<p style="font-size:16px;">The Cyber Security Specialist takes care of the day-to-day operations and data structures by overseeing the operational performance. They configure anti-virus systems and consoles. The professionals must have an in-depth understanding of vulnerabilities management systems and common security applications. They conduct software upgrades and explains performance criteria, documents configurations, and systems specifications. They manage the PPC system from threats and identifies and manages incidents and mitigate risks.</p>
-
-                            <p style="font-size:16px;">The Cyber Security Specialist takes care of the cyber security projects and makes sure they meet cyber security objectives. They work in close coordination with the stakeholders and other groups related to Cyber Security related matters. The specialist offers cyber security operations such as process re-engineering, automation, and documentation. The professionals recognize cyber security issues, devise and drive effective mitigation.</p>
+							<p style="font-size:16px;">A Cyber Security Specialist is responsible for ensuring security throughout the development of software systems, networks, and data centers. Their role involves identifying vulnerabilities and potential risks in both hardware and software. They continuously monitor and respond to cyber threats, preventing security breaches by closing loopholes and reinforcing defenses. Additionally, they integrate firewalls into network infrastructures to safeguard sensitive information.</p> <p style="font-size:16px;">The Cyber Security Specialist oversees daily security operations and data management by ensuring optimal system performance. Their responsibilities include configuring and maintaining antivirus software and security consoles. A strong understanding of vulnerability management tools and security applications is essential. They handle software updates, document system configurations, and establish security benchmarks. Furthermore, they protect PPC systems from cyber threats, effectively identifying incidents and mitigating risks.</p> <p style="font-size:16px;">Cyber Security Specialists lead cybersecurity projects, ensuring they align with security objectives and organizational goals. They collaborate closely with stakeholders and other cybersecurity teams to address security concerns. Their responsibilities extend to enhancing cybersecurity processes through re-engineering, automation, and documentation. They proactively detect security issues, implement mitigation strategies, and strengthen the organization's defense mechanisms.</p>
                             
                             </div>
                             <!-- /row -->

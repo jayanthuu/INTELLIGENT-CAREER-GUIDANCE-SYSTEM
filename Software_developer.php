@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,10 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Software Developer design, develop, and test software and applications for computers. The main duties and responsibilities of software developer include directing and participating in programming activities, monitoring, and evaluating system performance, and designing and implementing new programs and features.</p>
-
-							<p style="font-size:16px;">A Java, C#, .Net, C, Sybase and Oracle Software Developer is generally responsible for the development, design and implementation of new or modified software products or ongoing business projects. Typically sitting within the IT team of a business, a Software Developer will be involved in liaising with the Business Analysts and Development Managers to ensure software projects meet requirements.</p>
-                            <p style="font-size:16px;">Duties of Software developer will primarily revolve around building software by writing code, as well as modifying software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces. Software developer will also be involved in directing system testing and validation procedures, and also working with customers or departments on technical issues including software system design and maintenance.</p>
+							<p style="font-size:16px;">A Software Developer is responsible for designing, developing, and testing software applications for computers. Their key duties include programming, monitoring system performance, and implementing new features.</p> <p style="font-size:16px;">Software Developers proficient in Java, C#, .Net, C, Sybase, and Oracle work on developing, designing, and modifying software products or business applications. They collaborate with Business Analysts and Development Managers to ensure projects meet business requirements.</p> <p style="font-size:16px;">The role involves writing and modifying code, troubleshooting errors, optimizing performance, upgrading interfaces, and overseeing system testing and validation. Developers also assist in designing and maintaining software systems while addressing technical issues with customers or departments.</p>
                             
                             </div>
                             <!-- /row -->
@@ -76,7 +73,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">A degree and a technical background should be required to gain a Software Developer role. Degrees in the following subjects should be highlighted as particularly advantageous such as Computer Science , Computer Software Engineering, Software Programming and Development, Engineering.</p>
+							<p style="font-size:16px;">A degree and a strong technical background are essential for securing a Software Developer role. Degrees in fields such as Computer Science, Computer Software Engineering, Software Programming and Development, and Engineering are particularly advantageous.</p>
                             </div>
                             <!-- /row -->
 

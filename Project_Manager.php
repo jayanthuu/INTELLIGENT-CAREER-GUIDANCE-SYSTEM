@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,13 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >A Project Manager is responsible for planning, overseeing and leading projects from ideation through to completion. This is a senior role at an organisation and requires interaction with a range of internal and external stakeholders, most often managing several moving project parts simultaneously. An ideal Project Manager job description should capture the nuances and variation of this senior role, seeking multi-skilled and highly capable candidates.</p>
-
-                            <p style="font-size:16px;" >Project managers in information technology (IT) are tasked with planning certain types of projects within a company and ensuring that they are executed and on-track through every stage of the process. This job may require daily evaluations of employees, as well as leadership and motivation, in order to achieve particular goals.</p>
-
-                            <p style="font-size:16px;" >IT project managers must ensure that employees have the same shared vision and goals for projects while being assigned specific duties. Problem-solving may be necessary when projects are not going as planned, and they are usually given budgets for projects and must ensure that all parties involved are adhering to financial limits.</p>
-
-                            <p style="font-size:16px;" >These project managers oversee projects until they are finished, and evaluate them to determine whether follow-up projects are necessary and what changes can be made for the future. This job may also involve overseeing various personnel and departments to ensure their collaboration. Some positions require certification, such as project management professional certification, and a bachelor’s degree or higher in information technology, computer science, or a related field may also be required. As this is a leadership position, many years of relevant experience are often necessary, and past leadership skills and duties should be demonstrated.</p>
+							<p style="font-size:16px;">A Project Manager is responsible for planning, overseeing, and leading projects from ideation to completion. This senior role involves interacting with various internal and external stakeholders while managing multiple project components simultaneously.</p> <p style="font-size:16px;">IT Project Managers are tasked with planning and executing technology-related projects, ensuring they stay on track through each phase. They evaluate employee performance, provide leadership and motivation, and ensure alignment with project goals.</p> <p style="font-size:16px;">They also manage project budgets, oversee team collaboration, and solve problems when challenges arise. Upon project completion, they assess outcomes and determine improvements for future projects.</p> <p style="font-size:16px;">A bachelor’s degree in IT, computer science, or a related field is often required, along with certifications like PMP (Project Management Professional). Leadership experience and a track record of successful project execution are essential for this role.</p>
 
                             </div>
                             <!-- /row -->

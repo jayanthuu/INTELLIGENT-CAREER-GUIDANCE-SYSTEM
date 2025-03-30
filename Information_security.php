@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,8 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Information Security Specialist role involves in understanding and taking steps to mitigate the risks associated with collecting, storing and transmitting data in a business setting. Information Security Specialist will be expected to set up security measures that help prevent security breaches, as well as analyzing any breeches that do occur.</p>
-                            <p style="font-size:16px;" >Information Security Specialist responsible for designing, testing and Implementation of IT Security solutions as well as on-going maintenance and monitoring of live production environments. The work may involve maintaining security software and integrating new security into an organisation using various tools and techniques including firewalls, spyware, malware detection and intrusion detection systems.</p>
+							<p style="font-size:16px;">An Information Security Specialist is responsible for identifying and mitigating risks associated with data collection, storage, and transmission in a business environment. They implement security measures to prevent breaches and analyze any security incidents that occur to strengthen future defenses.</p> <p style="font-size:16px;">The role involves designing, testing, and deploying IT security solutions, along with maintaining and monitoring live production environments. Their work includes managing security software, integrating new protective measures, and utilizing tools such as firewalls, malware detection systems, spyware, and intrusion detection mechanisms to safeguard an organization's digital infrastructure.</p>
 						
                             </div>
                             <!-- /row -->
@@ -72,7 +71,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">The Information Security Specialist must have a Bachelors degree in a related field such as Computer Science, IT or a Cyber-Security related field. Also Post-secondary degree in system administration, network security, network administration or a related field will be accepted.</p>
+							<p style="font-size:16px;">An Information Security Specialist should hold a bachelor's degree in a relevant field such as Computer Science, Information Technology, or Cybersecurity. Additionally, a post-secondary degree in system administration, network security, or network administration is also considered acceptable for this role.</p>
                             </div>
                             <!-- /row -->
 

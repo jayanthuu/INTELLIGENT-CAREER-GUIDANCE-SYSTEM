@@ -12,7 +12,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">

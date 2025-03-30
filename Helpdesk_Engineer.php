@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,9 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Helpdesk Engineer are the go-to people for providing technical assistance and support related to computer systems, hardware, and software. They are responsible for answering queries and addressing system and user issues in a timely and professional manner. Helpdesk Engineer works with the IT team, and will often interact with system and computer users across the company. The helpdesk team will train users on basic system and computer functions. Understanding and proactively maintaining daily system performance, having the ability to troubleshoot customer problems, and innate follow-up and follow-through skills are all essential aspects of the help desk support’s day-to-day role.</p>
-
-							<p style="font-size:16px;">An excellent Helpdesk Engineer must have good technical knowledge and be able to communicate effectively to understand the problem and explain its solution. They must also be customer-oriented and patient to deal with difficult customers. The goal is to create value for clients that will help preserve the company’s reputation and business.</p>
+							<p style="font-size:16px;">A Helpdesk Engineer serves as the primary contact for providing technical support and troubleshooting assistance for computer systems, hardware, and software. They handle user inquiries, resolve technical issues, and ensure smooth system operations in a timely and professional manner. Working closely with the IT team, they frequently interact with employees across the organization, offering training on basic system functionalities. Key responsibilities include monitoring system performance, diagnosing technical problems, and ensuring effective follow-ups to maintain seamless operations.</p> <p style="font-size:16px;">A skilled Helpdesk Engineer should possess strong technical expertise and excellent communication skills to accurately assess issues and convey solutions clearly. Patience and a customer-focused approach are essential for handling challenging situations. The ultimate objective is to provide high-quality support that enhances user satisfaction and upholds the company’s reputation.</p>
                         
                             
                             </div>
@@ -77,7 +75,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">A college degree is required for entry-level helpdesk positions, a degree in computer information science, or help desk administration. It can also be useful to get a specialized or niche certificate in PC repair, network administration, or help desk support.</p>
+							<p style="font-size:16px;">A college degree is typically required for entry-level helpdesk roles, with preferred fields including computer information science or help desk administration. Additionally, obtaining specialized certifications in areas such as PC repair, network administration, or help desk support can enhance career prospects and provide a competitive edge in the job market.</p>
                             </div>
                             <!-- /row -->
 

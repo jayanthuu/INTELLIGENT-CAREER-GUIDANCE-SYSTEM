@@ -271,7 +271,7 @@ h6 {
    #BACKGROUND
    ========================================================================== */
 .bg-blue {
-  background: #2c6ed5;
+  background: #d52cca;
 }
 
 .bg-red {
@@ -280,7 +280,7 @@ h6 {
 
 .bg-gra-01 {
   background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
-  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
+  background: -webkit-linear-gradient(bottom, #fbc2eb 0%, #d18ccb 100%);
   background: -moz-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
   background: -o-linear-gradient(bottom, #fbc2eb 0%, #a18cd1 100%);
   background: linear-gradient(to top, #fbc2eb 0%, #a18cd1 100%);
@@ -288,18 +288,18 @@ h6 {
 
 .bg-gra-02 {
   background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #f45cd5 100%);
+  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #fa42c6 100%);
+  background: -o-linear-gradient(bottom left, #fc2c77 0%, #f028e3 100%);
+  background: linear-gradient(to top right, #fc2c77 0%, #ec3ce0 100%);
 }
 
 .bg-gra-03 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#08aeea), to(#b721ff));
-  background: -webkit-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
-  background: -moz-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
-  background: -o-linear-gradient(bottom left, #08aeea 0%, #b721ff 100%);
-  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+  background: -webkit-gradient(linear, left bottom, right top, from(#ec6ecb), to(#ea7ae4));
+  background: -webkit-linear-gradient(bottom left, #ec7fe1 0%, #fa79d3 100%);
+  background: -moz-linear-gradient(bottom left, #e881e3 0%, #da69c0 100%);
+  background: -o-linear-gradient(bottom left, #f782e5 0%, #ec74e4 100%);
+  background: linear-gradient(to top right, #e277d7 0%, #fc7bd3 100%);
 }
 
 /* ==========================================================================
@@ -427,11 +427,11 @@ h6 {
 }
 
 .btn--blue {
-  background: #4272d7;
+  background: #ea46ea;
 }
 
 .btn--blue:hover {
-  background: #3868cd;
+  background: #e73ce2;
 }
 
 .btn--red {
@@ -446,7 +446,7 @@ h6 {
    #DATE PICKER
    ========================================================================== */
 td.active {
-  background-color: #2c6ed5;
+  background-color: #d52cd5;
 }
 
 input[type="date" i] {
@@ -603,7 +603,7 @@ input {
 }
 
 .label {
-  color: #555;
+  color: #d358ba;
   font-size: 15px;
   font-weight: 700;
 }
@@ -749,7 +749,7 @@ input {
 
 .card-5 .card-heading {
   padding: 20px 0;
-  background: #8a2be2;
+  background: #e22bc0;
   -webkit-border-top-left-radius: 5px;
   -moz-border-radius-topleft: 10px;
   border-top-left-radius: 10px;

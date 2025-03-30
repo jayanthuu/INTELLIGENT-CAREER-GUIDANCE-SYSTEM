@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,9 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Software Testers are responsible for the quality of software development and deployment. They are involved in performing automated and manual tests to ensure the software created by developers is fit for purpose. Some of the duties include analysis of software, and systems, mitigate risk and prevent software issues.</p>
-
-							<p style="font-size:16px;">A software tester is responsible for designing test scenarios for software usability, running these tests, and preparing reports on the effectiveness and defects to the production team. A software tester is also known as a software test engineer or a quality assurance (QA) tester.</p>
+							<p style="font-size:16px;">Software Testers are responsible for ensuring the quality of software development and deployment. They perform automated and manual tests to verify that the software created by developers meets the required standards. Their duties include analyzing software and systems, mitigating risks, and preventing software issues.</p> <p style="font-size:16px;">A Software Tester designs test scenarios for software usability, executes these tests, and prepares reports on defects and overall software effectiveness for the production team. This role is also known as a Software Test Engineer or a Quality Assurance (QA) Tester.</p>
                             
                             </div>
                             <!-- /row -->
@@ -73,7 +71,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">Academic background of a software tester should be in Computer Science. A BTech/ B.E., MCA, BCA, BSc- Computers, will land a job quickly.If person does not hold any of these degrees, then they must complete a software testing certification like ISTQB and CSTE which help you learn Software Development/ Test Life Cycle and other testing methodologies.</p>
+							<p style="font-size:16px;">The academic background of a Software Tester should ideally be in Computer Science or a related field. Degrees such as B.Tech/B.E., MCA, BCA, or BSc in Computers can help candidates secure a job more quickly. </p> <p style="font-size:16px;">For those who do not hold these degrees, obtaining a software testing certification like ISTQB (International Software Testing Qualifications Board) or CSTE (Certified Software Tester) can be beneficial. These certifications provide knowledge of the Software Development Life Cycle (SDLC), Software Testing Life Cycle (STLC), and various testing methodologies, increasing employability in the field.</p>
                             </div>
                             <!-- /row -->
 

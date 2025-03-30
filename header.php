@@ -29,13 +29,15 @@
 	<body>
 
 		<!--Header-->
-        <header id="header" class="transparent-nav" style="position: fixed;background-color: rgb(120, 70, 167); top: 0;">
+        <header id="header" class="transparent-nav" style="position: fixed; background-color: #D63384; top: 0;">
+
+
 			<div class="container">
 
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="main.php">Career.ly</a>
+						<a class="logo" href="main.php">FuturePath</a>
 					</div>
 					<!-- /Logo -->
 

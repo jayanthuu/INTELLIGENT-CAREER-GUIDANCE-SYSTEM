@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,7 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Hardware engineers design the technology of the future. Using their solid knowledge of computer components and how they function, these skilled professionals play an important role in the development of a variety of useful products. They may, for instance, create new video game consoles, make improvements to mobile phones, or develop intelligent automotive systems. Hardware engineers frequently work full time in research labs and high-tech manufacturing firms, usually in large metropolitan areas. Some find positions in academia or with the federal government. The career path of a hardware engineer may lead to becoming a senior hardware design engineer, a computer and information systems manager, or a design engineering manager.</p>
+							<p style="font-size:16px;">Hardware engineers are responsible for shaping future technology. With their expertise in computer components and their functions, these professionals contribute significantly to the creation of innovative products. They may develop advanced gaming consoles, enhance mobile devices, or design intelligent automotive systems. Most hardware engineers work full-time in research labs or high-tech manufacturing companies, primarily in major cities. Some also pursue careers in academia or government sectors. Over time, they can advance to roles such as senior hardware design engineer, computer and information systems manager, or design engineering manager.</p>
 
                             </div>
                             <!-- /row -->
@@ -55,7 +55,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Skills required</h2>
-							<p style="font-size:16px;">A strong background in math, science, and computer science is a must for aspiring hardware engineers. They also, however, should be adept communicators capable of conveying instructions in verbal and written forms. Other critical skills include</p>
+							<p style="font-size:16px;">Aspiring hardware engineers must have a solid foundation in mathematics, science, and computer science. Additionally, they should possess strong communication skills to effectively convey instructions both verbally and in writing. Other essential skills include:</p>
 							
 							<ol style="font-size:16px;">
                                 <li><b>1. Teamwork - </b>designing a product involves collaborating with other relevant parties, such as software engineers</li>
@@ -70,7 +70,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">The minimum educational requirement is generally a bachelor’s degree in computer engineering or a similar discipline, though a master’s degree can increase job prospects. Graduating from a school with an ABET-accredited program also may attract a hiring manager’s attention. For hardware engineers looking to move into leadership positions, obtaining an MBA can be a smart move. All in this field should be prepared to continue taking classes throughout their career in order to stay up to date on technological advances.</p>
+							<p style="font-size:16px;">A bachelor's degree in computer engineering or a related field is typically required for entry into this profession, while a master's degree can enhance job opportunities. Graduating from an ABET-accredited program may also make candidates more appealing to employers. For those aspiring to leadership roles, pursuing an MBA can be beneficial. Continuous learning is essential in this field, as staying updated with technological advancements is crucial for career growth.</p>
                             </div>
                             <!-- /row -->
 

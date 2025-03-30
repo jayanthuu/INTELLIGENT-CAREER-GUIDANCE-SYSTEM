@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,9 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Networking Engineer will be responsible for maintaining and administering our company's computer networks. Primary duties will include maintenance of computer networks, hardware, software, and other related systems, performing disaster recovery operations, protecting data, software, and hardware from attacks, and replacing faulty network hardware components when necessary. Networking Engineers will also be working closely with the users of our network in order to identify potential issues and fix existing problems.</p>
-
-							<p style="font-size:16px;">Networking Engineer ensures the integrity of high availability network infrastructure to provide maximum performance for your users. Networking Engineer work's internally as part of an organisation's IT support team, or externally as part of an outsourced IT networking consultancy firm working with a number of clients.</p>
+							<p style="font-size:16px;">A Networking Engineer is responsible for managing and maintaining an organization's computer networks. Key responsibilities include overseeing network hardware, software, and systems, ensuring data protection, conducting disaster recovery operations, and replacing faulty network components as needed. They also collaborate with network users to identify and resolve technical issues.</p> <p style="font-size:16px;">Networking Engineers play a crucial role in maintaining a high-performance and reliable network infrastructure. They may work internally within an organization's IT support team or externally for an IT networking consultancy, assisting multiple clients with their networking needs.</p>
                         
                             
                             </div>
@@ -77,9 +75,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">Network Engineer Requirements include having a bachelor’ degree in the field of computer science, information technology or something that is related to technology.
-                            They should have a solid understanding of the network infrastructure and hardware.There are a lot of specialist courses that can enable you to get the skills and knowledge needed regarding networking certifications. Some of these are  
-                            CCIE (Cisco), CCNP (Cisco), JNCIE-ENT (Juniper), Network+ (CompTIA), WCNA (Wireshark).</p>
+                            <p style="font-size:16px;">Network Engineer requirements typically include a bachelor’s degree in computer science, information technology, or a related technology field. A strong understanding of network infrastructure and hardware is essential.</p> <p style="font-size:16px;">There are several specialized certifications that can help network engineers gain the necessary skills and knowledge. Some of the most recognized certifications include:</p> <ul style="font-size:16px;"> <li><strong>CCIE (Cisco)</strong> – Cisco Certified Internetwork Expert</li> <li><strong>CCNP (Cisco)</strong> – Cisco Certified Network Professional</li> <li><strong>JNCIE-ENT (Juniper)</strong> – Juniper Networks Certified Expert</li> <li><strong>Network+ (CompTIA)</strong> – A foundational certification in networking</li> <li><strong>WCNA (Wireshark)</strong> – Wireshark Certified Network Analyst</li> </ul> <p style="font-size:16px;">These certifications help professionals stay updated with the latest networking technologies and improve career prospects in the field.</p>
                             </div>
                             <!-- /row -->
 

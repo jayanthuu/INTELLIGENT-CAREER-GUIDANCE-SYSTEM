@@ -9,9 +9,9 @@ session_start();
 		<!-- Hero-area -->
 		<div class="hero-area section">
 
-			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
-			<!-- /Backgound Image -->
+			<!-- Background Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
+			<!-- /Background Image -->
 
 			<div class="container">
 				<div class="row">
@@ -42,67 +42,63 @@ session_start();
 
 						<!-- blog post -->
 						<div class="blog-post" style= text-align:justify; ">
-                            <h2>Job Description</h2>
+                            <h2>Job Overview</h2>
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >An Application Support Engineer is an IT professional who provides technical support regarding a spectrum of software used within a specific business sector. Due to this broad definition, the core responsibilities of an Application Support Engineer vary depending on the industry. Some Application Support Engineers are responsible for database management, while others put more emphasis on the programming end of an application. The specific focus is dependent on the needs of the business.</p>
+							<p style="font-size:16px;">An Application Support Engineer plays a crucial role in ensuring software applications run smoothly within a business environment. This role involves troubleshooting technical issues, optimizing system performance, and supporting end-users by addressing software-related concerns. Responsibilities may vary depending on the industry, with some engineers focusing on database administration, while others specialize in application development and support.</p>
 
-							<p style="font-size:16px;">Typically part of an IT support team, an Application Support Engineer needs both technical knowledge and “people” skills to do their job well. Given how interwoven technology and the business world have become, Application Support Engineers are employed internally by a number of companies across a wide spectrum of industries. Application Support Engineers can also work for an agency and have several different clients. When it comes to work environment, Application Support Engineers often collaborate with other team members, as well as customers.</p>
-                            
+							<p style="font-size:16px;">Application Support Engineers work as part of IT teams, bridging the gap between technical functions and business operations. Their role requires both technical expertise and excellent communication skills to resolve issues efficiently. These professionals can be employed in a variety of industries and may work internally for a company or externally for agencies providing support to multiple clients.</p>
                             </div>
                             <!-- /row -->
                             <!-- row -->
                             <div class="row">
-							<h2>Skills required</h2>
-							<p style="font-size:16px;">A successful Application Support Engineer is not your stereotypical anti-social tech person. In addition to possessing a wealth of technical knowledge, they must also have the interpersonal skills to help users of said application.</p>
-							<p style="font-size:16px;">Based on our research, we identified the following core skills one must possess to get a job as an Application Support Engineer.</p>
+							<h2>Essential Skills</h2>
+							<p style="font-size:16px;">A skilled Application Support Engineer not only possesses technical knowledge but also has strong interpersonal abilities to assist users effectively. Here are some key skills required for this role:</p>
 							<ol style="font-size:16px;">
-                                <li><b>1.</b> Working knowledge of SQL Databases & basic network configuration</li>
-                                <li><b>2.</b> Working Knowledge of IT Hardware and Software</li>
-                                <li><b>3.</b> Ability to learn and master employer-specific software</li>
-                                <li><b>4.</b> Complex problem solving</li>
-                                <li><b>5.</b> Written and verbal communication skills</li>
-                                <li><b>6.</b> Ability to diagnose & address application issues</li>
+                                <li><b>1.</b> Proficiency in SQL databases and network configurations</li>
+                                <li><b>2.</b> Familiarity with IT hardware and software</li>
+                                <li><b>3.</b> Ability to quickly learn and adapt to company-specific software</li>
+                                <li><b>4.</b> Strong analytical and problem-solving capabilities</li>
+                                <li><b>5.</b> Excellent written and verbal communication skills</li>
+                                <li><b>6.</b> Capability to diagnose and troubleshoot software-related issues</li>
                             </ol>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">In order to get a job as an Application Support Engineer, one must first earn a Bachelor’s degree in Computer Science or a related field, such as Software Development. During the course of this education, aspiring Application Support Engineers learn the basics of database management, application development and and computer-related Mathematics.</p>
+							<h2>Educational Qualifications</h2>
+							<p style="font-size:16px;">To become an Application Support Engineer, candidates typically need a Bachelor's degree in Computer Science, Software Engineering, or a related field. Academic training includes foundational knowledge in database management, software development, and computational mathematics, equipping individuals with the necessary skills for this role.</p>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Duties and Responsibilities</h2>
-							<p style="font-size:16px;">The role of Application Support Engineer is one of the more generalized positions in the IT world. A good Application Support Engineer needs to have at least a working knowledge of database management, different operating systems and different programming languages. We scoured several Application Support Engineer job postings in order to compile the following list of core responsibilities.</p>
-							
+							<h2>Key Responsibilities</h2>
+							<p style="font-size:16px;">Application Support Engineers take on a broad range of responsibilities, requiring expertise in multiple areas, including software troubleshooting and database management. The core duties include:</p>
 							<ol style="font-size:16px;">
-                                <li><b>1.</b> Identifying and Evaluate Technology Solutions</li>
-                                <li><b>2.</b> Problem Solve and Troubleshoot</li>
-                                <li><b>3.</b> Onboard New Users</li>
-                                <li><b>4.</b> Identify Potential Issues</li>
-                                <li><b>5.</b> Work with Cross-Functional Teams</li>
+                                <li><b>1.</b> Assessing and implementing technology solutions</li>
+                                <li><b>2.</b> Troubleshooting technical issues effectively</li>
+                                <li><b>3.</b> Assisting with onboarding and training new users</li>
+                                <li><b>4.</b> Proactively identifying and mitigating potential system issues</li>
+                                <li><b>5.</b> Collaborating with cross-functional teams to improve system performance</li>
                             </ol>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Salary</h2>
-							<p style="font-size:16px;">According to online sources, the national median salary for Application Support Engineers is about ₹ 51 LPA. Those on the low end of the spectrum earn an annual salary in the neighborhood of ₹ 43 LPA, while those on the high end of the spectrum can earn ₹ 65 LPA or more.</p>
+							<h2>Salary Insights</h2>
+							<p style="font-size:16px;">Based on available data, the average salary for Application Support Engineers in India is approximately ₹51 LPA. Entry-level engineers typically earn around ₹43 LPA, while experienced professionals in this field can command salaries exceeding ₹65 LPA.</p>
                             </div>
                             <!-- /row -->
 
                             <!-- row -->
                             <div class="row">
-							<h2>Companies offering Application Support Engineer role</h2>
-
+							<h2>Top Employers Hiring for This Role</h2>
 							<ol style="font-size:16px;">
-                                <li><b>1. Accenture </b> </li>
+                                <li><b>1. Accenture</b></li>
                                 <li><b>2. IBM</b></li>
                                 <li><b>3. VivaConnect Pvt. Ltd.</b></li>
                                 <li><b>4. Zwayam</b></li>
@@ -110,7 +106,6 @@ session_start();
                             </ol>
                             </div>
                             <!-- /row -->
-
 
 						</div>
 						<!-- /blog post -->

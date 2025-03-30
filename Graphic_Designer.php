@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,11 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >The Graphic Designer job includes the entire process of defining requirements, visualizing and creating graphics including illustrations, logos, layouts and photos. Graphic Designer will be the one to shape the visual aspects of websites, books, magazines, product packaging, exhibitions and more.</p>
-
-							<p style="font-size:16px;">Graphic Designer should capture the attention of those who see them and communicate the right message. For this, one need to have a creative flair and a strong ability to translate requirements into design. The goal is to inspire and attract the target audience.</p>
-
-                            <p style="font-size:16px;">Graphic designers use their artistic abilities to communicate ideas, inform consumers, and solve problems. From the layout of a website to large images seen on billboards, graphic designers create visual concepts by hand or by computer to help others interpret the world around them through color, texture, images, and symbols. Graphic designers can be found in many industries and may be responsible for all aspects of a company's design process, or they might specialize in a particular field such as advertising, digital design, illustration, or branding. Some work independently as freelancers, while others are part of a design studio, a creative agency, or a corporate company.</p>
+							<p style="font-size:16px;">A Graphic Designer's role involves understanding project requirements, conceptualizing ideas, and creating visual content such as illustrations, logos, layouts, and photographs. They are responsible for shaping the visual identity of websites, books, magazines, product packaging, exhibitions, and more.</p> <p style="font-size:16px;">A Graphic Designer must craft designs that captivate audiences and effectively convey the intended message. This requires a strong creative vision and the ability to transform ideas into compelling visuals. The ultimate objective is to engage and inspire the target audience.</p> <p style="font-size:16px;">Graphic designers use their artistic expertise to express ideas, inform audiences, and solve visual communication challenges. Whether working on website layouts or large-scale advertisements, they create designs manually or digitally, utilizing elements such as color, texture, imagery, and symbolism. Graphic designers are employed across various industries, handling a company’s entire design process or specializing in areas like advertising, digital design, illustration, or branding. While some work independently as freelancers, others collaborate within design studios, creative agencies, or corporate teams.</p>
                             
                             
                             </div>
@@ -76,8 +72,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">While entry is open to non-graduates, preference is given to those with relevant degrees. A degree in graphic design is advantageous or Degree in Design, Fine Arts or related field is a plus.
-                            Also one should have good knowledge of design software, such as Quark Xpress, InDesign or Illustrator, plus photo-editing software such as PhotoShop.</p>
+							<p style="font-size:16px;">Although non-graduates can enter the field, candidates with relevant degrees are preferred. Holding a degree in Graphic Design, Design, Fine Arts, or a related discipline is an advantage. Additionally, proficiency in design software like QuarkXPress, InDesign, or Illustrator, along with expertise in photo-editing tools such as Photoshop, is highly beneficial.</p>
                                
                             </div>
                             <!-- /row -->
@@ -103,7 +98,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Salary</h2>
-							<p style="font-size:16px;">The average salary for a Graphic Designer in India is Rs. 305123 per annum.</p>
+							<p style="font-size:16px;">In India, the average annual salary of a Graphic Designer is approximately ₹3,05,123.</p>
                             </div>
                             <!-- /row -->
 

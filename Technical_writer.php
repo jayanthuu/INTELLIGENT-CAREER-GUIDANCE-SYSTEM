@@ -1,5 +1,5 @@
 <?php
-// Initialize the session
+
 session_start();
 ?>
 
@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -46,9 +46,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Technical Writers have the expertise to understand and communicate the technical aspects of a digital product to both highly technical and non-technical users. In a way, they act as a translator, providing users with the information that will resonate best with them based on their background. </p>
-
-							<p style="font-size:16px;">Technical Writers are responsible for prepare instruction manuals and articles with the main goal to communicate complex, technical information more easily. They also develop, gather, and disseminate technical information among customers, designers, and manufacturers. Technical Writers are responsible for producing high-quality and understandable documentation with the goal to improve the success of our products. </p>
+							<p style="font-size:16px;">Technical Writers have the expertise to understand and communicate the technical aspects of a digital product to both highly technical and non-technical users. They act as translators, providing users with information that resonates best with them based on their background.</p> <p style="font-size:16px;">Technical Writers are responsible for preparing instruction manuals, user guides, and articles with the primary goal of simplifying complex technical information. They develop, gather, and disseminate technical content among customers, designers, and manufacturers. Their role is crucial in producing high-quality, clear, and user-friendly documentation to enhance the success and usability of products.</p>
                             
                             </div>
                             <!-- /row -->
@@ -70,7 +68,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">A college degree is usually required for a position as a technical writer. In addition, knowledge of or experience with a technical subject, such as science or engineering, is beneficial. Employers generally prefer candidates who have a bachelor’s degree in English or another communications-related subject. Technical writing jobs may require candidates to have both a degree and knowledge of a technical field, such as engineering, computer science.</p>
+							<p style="font-size:16px;">A college degree is usually required for a position as a Technical Writer. Additionally, knowledge of or experience in a technical field, such as science or engineering, is highly beneficial. Employers generally prefer candidates with a bachelor’s degree in English, Communications, or a related field. Some technical writing roles may also require expertise in a specific technical domain, such as engineering or computer science, to effectively translate complex concepts into clear and user-friendly documentation.</p>
                             </div>
                             <!-- /row -->
 

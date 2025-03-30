@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,9 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Penetration testers, also known as “ethical hackers,” are highly skilled security specialists that spend their days attempting to breach computer and network security systems. These testers work in the information technology (IT) field to ensure that those without authorization cannot access an organization’s data. They do this by trying to hack into networks to identify potential vulnerabilities in the system. </p>
-
-							<p style="font-size:16px;">Penetration testers help businesses and organizations identify and resolve security vulnerabilities and weaknesses affecting their digital assets and computer networks. Some hold in-house positions with permanent employers, functioning as part of internal cybersecurity or information technology (IT) teams. Others work for specialized firms that provide penetration-testing services to end clients.</p>
+							<p style="font-size:16px;">Penetration testers, also known as “ethical hackers,” are highly skilled security specialists who attempt to breach computer and network security systems. Their primary role is to ensure that unauthorized individuals cannot access an organization’s data by identifying and exploiting security vulnerabilities in a controlled environment.</p> <p style="font-size:16px;">Penetration testers help businesses and organizations detect and resolve security weaknesses in their digital assets and computer networks. They may work in-house as part of internal cybersecurity or IT teams or be employed by specialized firms that provide penetration testing services to various clients.</p>
 
                             <p style="font-size:16px;"></p>
                             
@@ -83,7 +81,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Duties and Responsibilities</h2>
-							<p style="font-size:16px;">Penetration Tester job will likely also involve planning and executing tests, documenting your methodologies, creating detailed reports about your findings and perhaps also being involved in designing fixes and improving security protocols.</p>
+							<p style="font-size:16px;">A Penetration Tester’s job typically involves planning and executing security tests, documenting methodologies, and creating detailed reports on findings. They may also be involved in designing fixes and improving security protocols to enhance an organization’s overall cybersecurity posture.</p>
 
 							<ol style="font-size:16px;">
                                 <li><b>1. </b>Perform penetration tests on computer systems, networks and applications.</li>

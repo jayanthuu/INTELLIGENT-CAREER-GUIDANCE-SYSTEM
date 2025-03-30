@@ -100,26 +100,26 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         margin:auto; 
         margin-top: 120px;
         width:500px; 
-        background-color: blueviolet;
+        background-color:rgb(237, 91, 164);
         color: black;
         
         
         }
         .wrapper{  border-style: solid;
-        border-color: blue;
+        border-color: pink;
         border-radius: 30px;
         padding: 20px;  background-color: white;}
     </style>
 </head>
 <body>
     <!--Header-->
-    <header id="header" class="transparent-nav" style="position: fixed;background-color: rgb(120, 70, 167); top: 0;">
+    <header id="header" class="transparent-nav" style="position: fixed;background-color: #D63384; top: 0;">
 			<div class="container">
 
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="main.php" style="padding-bottom: 10px;">Career.ly</a>
+						<a class="logo" href="main.php" style="padding-bottom: 10px;">Future Path</a>
 					</div>
 					<!-- /Logo -->
 
@@ -152,8 +152,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
             </div>
-            <p style="font-size: 16px;">Don't have an account? <a href="register.php" style="color:blue;">Sign up now</a>.</p>
-            <p style="font-size: 16px;">Forgot Password? <a href="reset.php" style="color:blue;">click here</a>.</p>
+            <p style="font-size: 16px;">Don't have an account? <a href="register.php" style="color:pink;">Sign up now</a>.</p>
+            <p style="font-size: 16px;">Forgot Password? <a href="reset.php" style="color:pink;">click here</a>.</p>
         </form>
     </div>
 </body>

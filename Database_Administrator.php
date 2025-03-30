@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,11 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >Database administrators (DBAs) design, write and take care of computer database systems so that the right person can get the information they need at the right time.</p>
-
-							<p style="font-size:16px;">Database administrators or managers create and maintain databases compatible with their companies’ needs. These information technology (IT) professionals oversee database updates, storage, security, and troubleshooting.</p>
-
-                            <p style="font-size:16px;">Database administrators also back up, restore, and troubleshoot database sets and system access, updating and integrating old programs to implement the latest technology.Database administrators need at least a bachelor’s degree in information science or computer science for most entry-level positions. Depending on the size and complexity of their company or governing body, these professionals may need a master’s degree in database administration or information technology. All database administrators need fundamental knowledge of structured query language (SQL) and software vendor certifications.</p>
+							<p style="font-size:16px;">Database administrators (DBAs) develop, manage, and maintain computer database systems, ensuring authorized users can access the necessary information when needed.</p> <p style="font-size:16px;">These IT professionals design and maintain databases tailored to their organizations' requirements. They are responsible for database updates, storage management, security enforcement, and resolving technical issues.</p> <p style="font-size:16px;">DBAs also handle data backups, system recovery, and troubleshooting while integrating and upgrading outdated systems with modern technologies. For most entry-level roles, a bachelor's degree in computer science or information science is required. Depending on the organization's scale and complexity, a master's degree in database administration or IT may be necessary. Additionally, proficiency in structured query language (SQL) and relevant software certifications are essential for database administrators.</p>
                             
                             </div>
                             <!-- /row -->

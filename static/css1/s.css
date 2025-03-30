@@ -1302,11 +1302,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .blog-share a.facebook {
-	background-color:#3b5998;
+	background-color:#c546b6;
 }
 
 .blog-share a.twitter {
-	background-color:#55acee;
+	background-color:#e955ee;
 }
 
 .blog-share a.google-plus {

@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,9 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >A data scientist is someone who makes value out of data. Such a person proactively fetches information from various sources and analyzes it for better understanding about how the business performs, and to build AI tools that automate certain processes within the company.</p>
-
-                            <p style="font-size:16px;" >Data scientist duties typically include creating various machine learning-based tools or processes within the company, such as recommendation engines or automated lead scoring systems. People within this role should also be able to perform statistical analysis.</p>
+							<p style="font-size:16px;">A data scientist extracts meaningful insights from data to drive business value. They actively gather information from multiple sources, analyze patterns, and use their findings to improve business performance. Additionally, they develop AI-driven solutions to automate various processes within the organization.</p> <p style="font-size:16px;">The responsibilities of a data scientist often involve designing machine learning models and automation tools, such as recommendation systems or predictive analytics solutions. They should also have strong statistical analysis skills to interpret data effectively and optimize decision-making processes.</p>
 
                             </div>
                             <!-- /row -->
@@ -57,7 +55,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Skills required</h2>
-							<p style="font-size:16px;">A strong background in math, science, and computer science is a must for aspiring hardware engineers. They also, however, should be adept communicators capable of conveying instructions in verbal and written forms. Other critical skills include</p>
+							<p style="font-size:16px;">Aspiring hardware engineers need a solid foundation in mathematics, science, and computer science. In addition to technical expertise, they should possess strong communication skills to effectively convey instructions both verbally and in writing. Other essential abilities include:</p>
 							
 							<ol style="font-size:16px;">
                             <li><b>1. </b>excellent analytical and problem-solving skills</li>

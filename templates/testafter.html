@@ -1,186 +1,142 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Smart Career Advisory System</title>
 
-		<title>Intelligent Career Guidance System</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link href="{{ url_for('static', filename='chart.css') }}" rel="stylesheet" media="all">
+    <link href="{{ url_for('static', filename='css1/bootstrap.min.css') }}" rel="stylesheet" media="all">
+    <link href="{{ url_for('static', filename='css1/font-awesome.min.css') }}" rel="stylesheet" media="all">
+    <link href="{{ url_for('static', filename='css1/s.css') }}" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" type="text/css">
 
-		<!-- Google font -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
-		
+    <style>
+        .chatbot-section {
+            text-align: center;
+            margin: 50px 0;
+        }
 
-  <link href="{{ url_for('static', filename='chart.css') }}" rel="stylesheet" media="all">
-  
-  <link href="{{ url_for('static', filename='css1/bootstrap.min.css') }}" rel="stylesheet" media="all">
-  
-  <link href="{{ url_for('static', filename='css1/font-awesome.min.css') }}" rel="stylesheet" media="all">
-  
-  <link href="{{ url_for('static', filename='css1/s.css') }}" rel="stylesheet" media="all">
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
+        .chatbot-section img {
+            width: 120px;
+            height: 120px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .chatbot-section img:hover {
+            transform: scale(1.1);
+        }
+
+        .chatbot-text {
+            font-size: 18px;
+            margin-top: 15px;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-<!--Header-->
-        <header id="header" class="transparent-nav" style="position: fixed;background-color: rgb(120, 70, 167); top: 0;">
-			<div class="container">
 
-				<div class="navbar-header">
-					<!-- Logo -->
-					<div class="navbar-brand">
-						<a class="logo" href="http://127.0.0.1/php%20CAREERLY/main.php">Career.ly</a>
-					</div>
-					<!-- /Logo -->
+<!-- Header -->
+<header id="header" class="transparent-nav" style="position: fixed; background-color:#D63384; top: 0;">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- Logo -->
+            <div class="navbar-brand">
+                <a class="logo" href="http://127.0.0.1/php%20CAREERLY/main.php">Future Path</a>
+            </div>
+            <!-- Mobile toggle -->
+            <button class="navbar-toggle">
+                <span></span>
+            </button>
+        </div>
 
-					<!-- Mobile toggle -->
-					<button class="navbar-toggle">
-						<span></span>
-					</button>
-					<!-- /Mobile toggle -->
-				</div>
+        <?php
+            if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):
+        ?>
+        <?php else: ?>
+        <nav id="nav">
+            <ul class="main-menu nav navbar-nav navbar-right">
+                <li><a href="http://127.0.0.1/php%20CAREERLY/main.php">Home</a></li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="javascript:void(0)">Services <span> &#11167;</span></a>
+                    <div class="dropdown-content">
+                        <a href="http://127.0.0.1:5000/">Career Prediction</a>
+                        <a href="http://127.0.0.1/php%20CAREERLY/courses.php">Courses</a>
+                        <a href="http://127.0.0.1/php%20CAREERLY/blog.php">Knowledge Network</a>
+                        <a href="http://127.0.0.1/php%20CAREERLY/faq.php">FAQs</a>
+                        <a href="http://localhost:8000/resume_upload.php">Resume Analysis</a> <!-- Added Button -->
+                    </div>
+                </li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="http://127.0.0.1/php%20CAREERLY/contact.php">Contact Us</a></li>
+                <li><a href="http://127.0.0.1/php%20CAREERLY/logout.php">Log out</a></li>
+            </ul>
+        </nav>
+        <?php endif ?>
+    </div>
+</header>
 
-				<?php
-					// Check if the user is logged in, if not then redirect him to login page
-					if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):
-				?>
+<!-- Main Content -->
+<br><br><br><br><br><br><br>
+<b><h1>Hello, based on your skill set, we have identified the leading job roles that align with your expertise</h1><br><br></b>
 
-				<!-- Navigation -->
-				
-				<?php else: ?>
-					<!-- Navigation -->
-				<nav id="nav">
-					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="http://127.0.0.1/php%20CAREERLY/main.php">Home</a></li>
-                        <li class="dropdown">
-                            <a class="dropbtn" href="javascript:void(0)">Services <span> &#11167;</span></a>
-                            <div class="dropdown-content">
-								<a href="http://127.0.0.1:5000/">Career Prediction</a>
-                                <a href="http://127.0.0.1/php%20CAREERLY/courses.php">Courses</a>
-                                <!--<a href="http://127.0.0.1/php%20CAREERLY/blog.php">Blogs</a>
-                                <a href="http://127.0.0.1/php%20CAREERLY/daily_bytes.php">Daily bytes</a>
-                                <a href="http://127.0.0.1/php%20CAREERLY/community.php">Community</a>-->
-								<a href="http://127.0.0.1/php%20CAREERLY/blog.php">Knowledge Network</a>
-								<a href="http://127.0.0.1/php%20CAREERLY/faq.php">FAQs</a>
-                            </div>
-                        </li>
-						<li><a href="#about">About Us</a></li>
-						<li><a href="http://127.0.0.1/php%20CAREERLY/contact.php">Contact Us</a></li>
-						<li><a href="http://127.0.0.1/php%20CAREERLY/logout.php"" >Log out</a></li>
-						
-                        
-					</ul>
-				</nav>
-				<!-- /Navigation -->
-				<?php endif ?>
+<div class="graph-cont">
+    <h1>You can be a great:</h1>
 
-			</div>
-		</header>
-	
-   <br><br><br><br><br><br><br>
-   <b><h1>Hey! The top job roles that matched your skills.....</h1><br><br></b>
-   <div class="graph-cont">
-   <h1>You can be a great:</h1>
-   <div class="bar bar1" ><a href="http://127.0.0.1/php%20CAREERLY/blog.php" style="text-decoration: none;"><font color="white">{{ job0 }}</a></font></div><br>
-	
-		
-		
-	  
-	 
-	 {%for key, value in final_res.items(): %}
-		{%if job0!=job_dict[value]%}
-		 <div class="bar bar2"><a href="http://127.0.0.1/php%20CAREERLY/blog.php" style="text-decoration: none;"><font color="white">{{job_dict[value]}}</a></font></div><br>
+    {% for job in final_res %}
+        <div class="bar bar2">
+            <a href="http://127.0.0.1/php%20CAREERLY/blog.php?job={{ job | urlencode }}" style="text-decoration: none;">
+                <font color="white">{{ job }}</font>
+            </a>
+        </div>
+        <br>
+    {% endfor %}
 
-	 
-	 
-	 
-		
-		
-					<!--<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{job_dict[value]|e}}</a></font></div><br> --> 
-		              
+    <i><h2><p><a href="http://localhost:8000/blog.php">Click here!</a></p></h2></i>
 
-		<!--	<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{job_dict[value]}}</a></font></div><br>  
-		
-		-->
-		{%endif%}
-	 {%endfor%}
-	 
-	
-	<i><h2><p><a href="http://127.0.0.1/php%20CAREERLY/blog.php">To know more about these job roles click here!</a></p></h2></i>
-	 
-	 
-	 
-	 
-	
-	 
-	 
-	 
-      
-   <!--<div class="bar bar2"><a href="#" style="text-decoration: none;"><font color="white">{{ job1 }}</a></font></div><br>
-   <div class="bar bar3" ><a href="#" style="text-decoration: none;"><font color="white">{{ job2 }}</a></font></div><br>
-   <div class="bar bar4"><a href="#" style="text-decoration: none;"><font color="white">{{ job3 }}</a></font></div><br>-->
-	
-  </div>
-  <br><br><br><br><br><br><br>
-  <!-- Footer -->
-		<footer id="footer" class="section">
+    <!-- Resume Analyzing Button -->
+    <div style="margin-top: 30px; text-align: center;">
+        <a href="http://localhost:8000/resume_upload.php" 
+           style="padding: 15px 30px; background-color: #007bff; color: white; font-size: 18px; text-decoration: none; border-radius: 5px;">
+            Analyze Your Resume
+        </a>
+    </div>
+</div>
 
-			<!-- container -->
-			<div class="container">
+<!-- Chatbot Section -->
+<div class="chatbot-section">
+    <p class="chatbot-text">If you want flowcharts or detailed info about any domain, just ask our Chatbot!
+        Type "Tell me about [Domain]" or "Give me the flowchart for [Domain]" to explore more!</p>
+    <a href="http://localhost:3000" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/4712/4712027.png" alt="Chatbot">
+    </a>
+</div>
+<!-- Footer -->
+<footer id="footer" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="footer-logo">
+                    <a class="logo" style="font-size: 30px;" href="main.php">Future Path</a>
+                </div>
+            </div>
+        </div>
 
-				<!-- row -->
-				<div class="row">
-
-					<!-- footer logo -->
-					<div class="col-md-6">
-						<div class="footer-logo">
-							<a class="logo" style="font-size: 30px;" href="main.php">Career.ly</a>
-						</div>
-					</div>
-					<!-- footer logo -->
-
-
-				</div>
-				<!-- /row -->
-
-				<!-- row -->
-				<div id="bottom-footer" class="row">
-
-					<!-- social -->
-					<div class="col-md-4 col-md-push-8">
-						
-					</div>
-					<!-- /social -->
-
-					<!-- copyright -->
-					<div class="col-md-8 col-md-pull-4">
-						<div class="footer-copyright">
-							<span>&copy; Copyright 2021. All Rights Reserved. </span>
-						</div>
-					</div>
-					<!-- /copyright -->
-					</div>
-				<!-- row -->
-
-			</div>
-			<!-- /container -->
-
-		</footer>
-		<!-- /Footer -->
-
+        <div id="bottom-footer" class="row">
+            <div class="col-md-8 col-md-pull-4">
+                <div class="footer-copyright">
+                    <span>&copy; Copyright 2021. All Rights Reserved. </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
-<!--
-
-           
-      #print(jobs_dict[predictions[0]])
-      job = {}
-      #job[0] = jobs_dict[predictions[0]]
-      index = 1
-     #
-
--->
-
-
-
-

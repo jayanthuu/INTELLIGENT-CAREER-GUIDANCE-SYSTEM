@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -46,17 +46,17 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >An artificial intelligence (AI)/ Machine Learning (ML) specialist applies their skills in engineering and computer science to create machines and software programs that can think for themselves. Most often, they use AI principles to address persistent business pain points, augment the capability of technical and human resources, and execute a change management/transformation process. The key contribution of an AI specialist is using emerging technologies, such as machine learning (ML) and neuro-linguistic programming (NLP), to solve business problems in new and creative ways that provide greater insight, accuracy, and consistency.</p>
+							<p style="font-size:16px;" >An AI/ML specialist leverages expertise in engineering and computer science to develop intelligent systems and software that can operate autonomously. Their primary focus is on applying artificial intelligence (AI) principles to tackle complex business challenges, enhance both technical and human capabilities, and drive digital transformation. These professionals play a crucial role in integrating cutting-edge technologies like machine learning (ML) and natural language processing (NLP) to create innovative solutions that improve decision-making, accuracy, and efficiency across various industries.</p>
 
-							<p style="font-size:16px;">Machine Learning Engineer responsibilities include creating machine learning models and retraining systems.Your ultimate goal will be to shape and build efficient self-learning applications.You will be evaluating existing machine learning (ML) processes, performing statistical analysis to resolve data set problems, and enhancing the accuracy of our AI software's predictive automation capabilities.</p>
+							<p style="font-size:16px;">A Machine Learning Engineer is responsible for developing and optimizing ML models while continuously refining self-learning systems. Their primary objective is to design efficient, scalable AI applications. Key responsibilities include analyzing existing ML workflows, conducting statistical evaluations to address data-related challenges, and improving the predictive accuracy of AI-driven automation.</p>
                             
                             </div>
                             <!-- /row -->
                             <!-- row -->
                             <div class="row">
 							<h2>Skills required</h2>
-							<p style="font-size:16px;"> AI/ML specialist is a software specialist with a strong mathematics background and a knowledge of coding, who’s core responsibilities are Designing and developing machine learning and deep learning systems, Running machine learning tests and experiments, Implementing appropriate ML algorithms.</p>
-							<p style="font-size:16px;">Based on our research, we identified the following core skills one must possess to get a job as an AI/ML Specialist.</p>
+							<p style="font-size:16px;"> An AI/ML specialist is a software expert with a strong foundation in mathematics and programming. Their core responsibilities include designing and developing machine learning and deep learning models, conducting ML experiments and tests, and implementing optimal ML algorithms to enhance system performance and automation.</p>
+							<p style="font-size:16px;">Based on our research, we have identified the key skills required to secure a job as an AI/ML Specialist.</p>
 							<ol style="font-size:16px;">
                                 <li><b>1.</b> Programming skills needed</li>
                                 <li><b>2.</b> Computer science fundamentals and programming</li>

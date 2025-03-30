@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -47,7 +47,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 
-							<p style="font-size:16px;" >The API Integration Specialist are the technical problem solver who will help the clients and partners integrate with their system.  The ideal candidate should  be comfortable with writing scripts, have a strong understanding of REST web-services, and be willing to specialize in the more technical nuts and bolts of our system and the Application Programming Interface (API). Beyond the technical skillset, someone who can communicate clearly both orally and in writing. The incumbent will be required to bridge the gap between business resources and the technology team and effectively communicate with internal and external clients.</p>
+							<p style="font-size:16px;" >An API Integration Specialist is a technical problem solver responsible for assisting clients and partners in integrating systems seamlessly. The ideal candidate should have experience in writing scripts, a strong understanding of RESTful web services, and expertise in the technical aspects of APIs. Beyond technical skills, effective oral and written communication is essential to bridge the gap between business and technology teams. This role requires the ability to collaborate with both internal and external clients, ensuring smooth integration and system functionality.</p>
 
 							
                             </div>
@@ -71,7 +71,7 @@ session_start();
                             <!-- row -->
                             <div class="row">
 							<h2>Educational Requirements</h2>
-							<p style="font-size:16px;">Degree in Computer Science or Information Technology or Business Information Systems or 2 years working in a technical role with API.</p>
+							<p style="font-size:16px;">A degree in Computer Science, Information Technology, or Business Information Systems, or two years of experience in a technical role working with APIs.</p>
                             </div>
                             <!-- /row -->
 

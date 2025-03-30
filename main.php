@@ -10,7 +10,8 @@ session_start();
 		<div id="home" class="hero-area">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bg.jpg); width:100%; height: 656px;"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image: url('./img/main_page_img.jpg'); width: 100%; height: 656px;"></div>
+
 			<!-- /Backgound Image -->
 
 			<div class="home-wrapper">
@@ -20,12 +21,12 @@ session_start();
 						
 
 							<h1 class="white-text" style="font-size: 40px;margin-top: 20px;
-							margin-bottom:50px;">Intelligent Career Guidance System</h1>
+							margin-bottom:50px;">Smart Career Advisory System</h1>
 							
 							<?php
 								// Check if the user is logged in, if not then redirect him to login page
 								if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true):?>
-									<p class="lead white-text" style="margin-left: 5px;" ><b>Discover yourself<br>Take the test to find the perfect role for you after Engineering</b></p>
+									<p class="lead white-text" style="margin-left: 5px;" ><b>Uncover Your Potential<br>Take the test and find the ideal career path after Engineering</b></p>
 
 									<a class="main-button icon-button" href="login.php">Get Started!</a>
 
@@ -58,9 +59,13 @@ session_start();
 					<div class="section-header text-center">
 					
 
-						<h2 style="margin-top: 100px; font-size: 45px;">Welcome to Career.ly</h2>
+						<h2 style="margin-top: 100px; font-size: 45px;">Welcome to FuturePath</h2>
 						<!--<p class="lead">We all want to fly high and in real time!<br> And in this random pursuit of success, we end up making wrong career choices.</p>-->
-						<p class="lead"><b style="color: rgb(56, 48, 48);">Career.ly</b> is one stop destination <br>in helping you understand yourself, the best career for you <br> and providing all the resources in the process.</p>
+						<p class="lead">
+    <b style="color: rgb(56, 48, 48);">FuturePath</b> is your ultimate destination <br> 
+    to discover yourself, explore the best career options, <br> 
+    and access all the resources you need for success.
+</p>
 					</div>
 				</div>	
 
@@ -81,7 +86,7 @@ session_start();
 								
 							<?php endif ?>
 								
-								<p>Take the test to find the perfect role for you after Engineering.</p>
+								<p>Take the test and find the ideal career path after Engineering</p>
 							</div>
 						</div>
 					</div>
@@ -130,7 +135,7 @@ session_start();
 		<div id="cta" class="section" style="height: 400px;">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgmid.jpg)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/for_study.jpg)"></div>
 			<!-- /Backgound Image -->
 
 			<!-- container -->
@@ -182,8 +187,8 @@ session_start();
 
 					<div class="col-md-6">
 						<div class="section-header">
-							<h2 style="font-size: 35px;">About Career.ly</h2>
-							<p class="lead" style="font-size: 18px; font-style: italic; margin-top: 50px;">Education seekers get a personalised experience on our site, based on educational background and career interest, enabling them to make well informed course and career decisions. The decision making is empowered with easy access to detailed information on career choices, courses, exams, colleges, admission criteria, eligibility, placement statistics, rankings, reviews, scholarships, latest updates etc as well as by interacting with other career.ly users, experts, current students in colleges and alumni groups. We have introduced several student oriented products and tools like Career Prediction, Knowledge Network, Daily Bytes, Blogs, Community discussion forum, and various Courses.</p>
+							<h2 style="font-size: 35px;">About FuturePath</h2>
+							<p class="lead" style="font-size: 18px; font-style: italic; margin-top: 50px;">Education seekers receive a personalized experience on our platform, tailored to their academic background and career interests. This helps them make informed decisions about courses and career paths. They gain easy access to comprehensive details on career options, courses, exams, colleges, admission criteria, eligibility, placements, rankings, reviews, scholarships, and the latest updates. Additionally, they can engage with other Career.ly users, experts, current students, and alumni for guidance. Our platform also offers student-focused tools such as Career Prediction, Knowledge Network, Daily Bytes, Blogs, Community Discussion Forum, and a variety of Courses.</p>
 							<!--Education seekers get a personalised experience on our site, based on educational background and career interest, enabling them to make well informed course and college decisions. The decision making is empowered with easy access to detailed information on career choices, courses, exams, colleges, admission criteria, eligibility, fees, placement statistics, rankings, reviews, scholarships, latest updates etc as well as by interacting with other Shiksha.com users, experts, current students in colleges and alumni groups. We have introduced several student oriented products and tools like Career Central, Common Application Form, Top Colleges, College Compare, Alumni Employment Stats, Campus Connect, College Reviews, College Predictors, MyShortlist and Shiksha Café.-->
 						</div>
 
@@ -191,7 +196,7 @@ session_start();
 
 					<div class="col-md-6">
 						<div class="about-img">
-							<img src="./img/about.png" alt="">
+							<img src="./img/about.jpg" alt="">
 						</div>
 					</div>
 
@@ -207,7 +212,7 @@ session_start();
 		<div id="contact-cta" class="section" style="height: 400px;">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/book_library.jpg)"></div>
 			<!-- Backgound Image -->
 
 			<!-- container -->

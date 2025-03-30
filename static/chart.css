@@ -35,7 +35,7 @@ h1,h2,h3{
 }
 .bar::after{
   content: '';
-  background: #8a2be2;
+  background: #e22be2;
   height: 30px;
   transition: 0.7s;
   display: block;
@@ -48,7 +48,7 @@ h1,h2,h3{
 }
 .bar1::after{
   max-width: 75%;
-  color:#8a2be2;
+  color:#e22bba;
   
   
 }

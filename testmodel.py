@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
 import pickle
-career = pd.read_csv('dataset9000.data', header = None)
+career = pd.read_csv(r'C:\Users\DELL\Documents\jaya\INTELLIGENT-CAREER-GUIDANCE-SYSTEM\dataset9000.data', header = None)
 #np.dtype('float64')
 
 X = np.array(career.iloc[:, 0:17]) #X is skills
 print(X)
 y = np.array(career.iloc[:, 17]) #Y is Roles
 print("hi")
-print(y) 
+print(y)  
 
 ##  attribute to return the column labels of the given Dataframe
 career.columns = ["Database Fundamentals","Computer Architecture","Distributed Computing Systems",

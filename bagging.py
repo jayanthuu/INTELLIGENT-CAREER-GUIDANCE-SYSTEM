@@ -1,40 +1,34 @@
+
+import pandas as pd
+import numpy as np
 from sklearn import model_selection
 from sklearn.ensemble import BaggingClassifier
 from sklearn.tree import DecisionTreeClassifier
-import pandas as pd
-import numpy as np
-import pickle
-  
-# load the data
-dataset = pd.read_csv('dataset9000.data', header = None)
-print(dataset.head())
-X=np.array(dataset.iloc[:, 0:17]) 
-print(X)
-Y = np.array(dataset.iloc[:, 17])
-print(Y)
-dataset.columns= ["Database Fundamentals","Computer Architecture","Distributed Computing Systems",
-"Cyber-Security","Networking","Development","Programming Skills","Project Management",
-"Computer Forensics Fundamentals","Technical Communication","AI ML","Software Engineering","Business Analysis",
-"Communication skills","Data Science","Troubleshooting-skills","Graphics Designing","Roles"]
-dataset.dropna(how ='all', inplace = True)
+from sklearn.preprocessing import LabelEncoder
 
-  
-seed =5 
-kfold = model_selection.KFold(n_splits = 15,
-                       random_state = seed)
-  
-# initialize the base classifier
-base_cls = DecisionTreeClassifier()
-  
-# no. of base classifier
-num_trees = 50
-  
-# bagging classifier
-model = BaggingClassifier(base_estimator = base_cls,
-                          n_estimators = num_trees,
-                          random_state = seed)
-  
-results = model_selection.cross_val_score(model, X, Y, cv = kfold)
-print("accuracy :",results.mean()*100)
+# Load dataset
+df = pd.read_csv("dataset9000.csv")  # Replace with actual dataset file
 
+# Separate features (X) and target (Y)
+X = df.iloc[:, :-1]  # All columns except last
+Y = df.iloc[:, -1]   # Last column (Target Role)
 
+# Convert categorical data into numerical values using Label Encoding
+label_encoders = {}
+for column in X.columns:
+    le = LabelEncoder()
+    X.loc[:, column] = le.fit_transform(X[column])
+    label_encoders[column] = le
+
+# Encode target column
+target_encoder = LabelEncoder()
+Y = target_encoder.fit_transform(Y)
+
+# Define model and cross-validation
+model = BaggingClassifier(estimator=DecisionTreeClassifier(), n_estimators=10)
+
+kfold = model_selection.KFold(n_splits=10)
+
+# Perform cross-validation
+results = model_selection.cross_val_score(model, X, Y, cv=kfold)
+print(f"Model Accuracy: {results.mean() * 100:.2f}%")

@@ -395,7 +395,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-	background-color: blueviolet;
+	background-color:#D63384;
   }
   
   .dropdown-content a {
@@ -427,7 +427,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 #header.transparent-nav {
 	position:absolute;
-	background-color: rgb(30, 79, 185);
+	background-color: rgb(185, 30, 167);
 }
 
 #header.transparent-nav .main-menu li a {
@@ -441,14 +441,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .main-menu li a:hover , .main-menu li a:focus {
-	background-color:rgb(172, 112, 200);
+	background-color:rgb(200, 112, 198);
 }
 
 .main-menu li a:after {
 	content:"";
 	display:block;
 	height:2px;
-	background-color:#a7328d;
+	background-color:#ef4bcc;
 	width:100%;
 	-webkit-transform: translateY(5px);
 	    -ms-transform: translateY(5px);
@@ -635,7 +635,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-radius: 50%;
 	font-size:30px;
 	border:1px solid #EBEBEB;
-	color:#a200ff;
+	color:#e358be;
 }
 
 .feature-content {
@@ -750,7 +750,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:rgb(172, 112, 200);
+	background-color:rgb(242, 103, 210);
 
 	opacity:0;
 	-webkit-transition:0.2s opacity;
@@ -936,7 +936,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .footer-social li a.facebook {
-	background-color:#3b5998;
+	background-color:#f737ea;
 }
 
 .footer-social li a.twitter {
@@ -983,7 +983,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .contact-details li i {
-	color:#a200ff;
+	color:#fc53e3;
 	margin-right: 15px;
 	border: 1px solid #EBEBEB;
 	border-radius: 50%;
@@ -1245,8 +1245,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .tags-widget .tag:hover {
-	background-color:rgb(172, 112, 200);
-	border-color:rgb(172, 112, 200);
+	background-color:rgb(244, 87, 247);
+	border-color:rgb(249, 66, 210);
 	color:#FFF;
 }
 
@@ -1301,11 +1301,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .blog-share a.facebook {
-	background-color:#3b5998;
+	background-color:#f323de;
 }
 
 .blog-share a.twitter {
-	background-color:#55acee;
+	background-color:#f445e8;
 }
 
 .blog-share a.google-plus {

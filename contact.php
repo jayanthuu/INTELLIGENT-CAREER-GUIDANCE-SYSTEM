@@ -10,7 +10,7 @@ session_start();
 		<div class="hero-area section">
 
 			<!-- Backgound Image -->
-			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/bgc2.jpg); " ></div>
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/pink_background.jpg); " ></div>
 			<!-- /Backgound Image -->
 
 			<div class="container">
@@ -57,9 +57,9 @@ session_start();
 					<div class="col-md-5 col-md-offset-1">
 						<h4>Contact Information</h4>
 						<ul class="contact-details">
-							<li><i class="fa fa-envelope"></i>Careerly@gmail.com</li>
-							<li><i class="fa fa-phone"></i>122-547-223-45</li>
-							<li><i class="fa fa-map-marker"></i>Santacruz west</li>
+							<li><i class="fa fa-envelope"></i>rjayanthi638@gmail.com</li>
+							<li><i class="fa fa-phone"></i>8072500560</li>
+							<li><i class="fa fa-map-marker"></i>Santacruz</li>
 						</ul>
 
 						<!-- contact map -->
@@ -91,7 +91,7 @@ session_start();
 					<!-- footer logo -->
 					<div class="col-md-6">
 						<div class="footer-logo">
-							<a class="logo" style="font-size: 30px;" href="main.html">Career.ly</a>
+							<a class="logo" style="font-size: 30px;" href="main.html">FuturePath </a>
 						</div>
 					</div>
 					<!-- footer logo -->
@@ -137,6 +137,5 @@ session_start();
 		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 		<script type="text/javascript" src="js/google-map.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-
 	</body>
 </html>
